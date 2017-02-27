@@ -1,0 +1,193 @@
+
+.mobile-menu-toggle {
+	display: none;
+}
+
+.nav-meta {
+	text-align: right;
+}
+
+
+.nav-wrap {
+  top: 40px;
+  right: 60px;
+  z-index: 1001;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.page-wrap {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.mobile-menu-open .page-wrap {
+  -webkit-transform: translateX(calc(-100% + #{$keep}));
+          transform: translateX(calc(-100% + #{$keep}));
+}
+
+
+.main-nav-wrapper {
+
+	.nav-pills>li {
+		a {
+		}
+	}
+
+		.nav-pills .current {
+		display: block;
+	}
+
+}
+
+
+.nav-pills>li {
+	float: right;
+}
+#animation-wrapper {
+	background: transparent;
+}
+
+.packery-item {
+	width: 47.5%;
+}
+
+.members .member {
+	min-width: 33%;
+}
+
+/*===============================
+=            Stories            =
+===============================*/
+
+.story--header--title {
+	font-size: 36px;
+}
+
+.story-teaser--title {
+	background: transparent !important;
+}
+
+.story {
+	.members .member {
+		min-width: 50%;
+	}
+}
+
+/*-----  End of Stories  ------*/
+
+.hero-overlay {
+
+	padding: 0;
+	position: absolute;
+	text-align: left; 
+	width: 100%;
+	height: 100%;
+
+	h1 {
+		width: 80%;
+		margin: 1em 0em 0em 1em;
+		font-size: 60px;
+		line-height: 60px;
+		}
+
+	h3 {
+		font-family: $leaguespartan;
+		width: 55%;
+		margin: 0;
+		font-size: 20px;
+		position: absolute;
+		bottom: 1em;
+		right: -18em;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		line-height: 26px;
+		}
+	}
+
+.introtext{
+		font-size: 30px;
+		line-height: 32px;
+}
+
+
+.slogan{
+
+	h2 {
+		bottom: 60px;
+		right: 120px;
+		position: absolute;
+		text-transform:none;
+		max-width: 550px;
+		font-size: 18px;
+		line-height: 28px;
+		text-align: left;
+
+	}
+}
+
+
+
+
+
+.hero-info {
+  background-image: url("/static/img/info.gif");
+//  background-size: 50%;
+    background-size: 250px;
+}
+
+.hero-anmelden {
+  background-image: url("/static/img/anmelden.gif");
+//  background-size: 50%;
+    background-size: 250px;
+}
+
+.hero-veranstalter {
+  background-image: url("/static/img/team_okfblau.gif");
+//  background-size: 50%;
+    background-size: 250px;
+}
+
+
+.hero-slogan {
+  background-image: url("/static/img/workinon-2.gif");
+//  background-size: 50%;
+    background-size: 65%;
+    background-position-x: 20px;
+    background-position-y: 20px;
+
+}
+
+
+.hero-register {
+  background-image: url("/static/img/register.gif");
+//  background-size: 50%;
+    background-size: 250px;
+}
+
+
+.hero-orga {
+  background-image: url("/static/img/organisiert.gif");
+//  background-size: 50%;
+    background-size: 250px;
+}
+
+
+.hero-speaker {
+  background-image: url("/static/img/speaker.gif");
+//  background-size: 100%;
+  background-size: 250px;
+}
+
+
+.hero-index {
+  background-image: url("/static/img/io.png");
+  background-size: 50%;
+  //  background-size: 250px;
+}
+
+
