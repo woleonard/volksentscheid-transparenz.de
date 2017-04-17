@@ -4,21 +4,21 @@ de:
     side: right
 
   - title: Blog
-    url: /blog
+    url: http://blog.fragdenstaat.de
     side: right
     
- - title: Termine
-   url: termine
-   side: right
+  - title: Termine
+    url: /termine
+    side: right
      
   - title: Unsere Ziele
-    url: /info/ziele
+    url: /ziele
     side: right
     
   - title: Der Hintergrund
-    url: /info/hintergrund
+    url: /hintergrund
     side: right
     
-  - title: Der Gesetzesentwurf
-    url: gesetz
+  - title: Der Gesetzentwurf
+    url: /gesetz
     side: right
