@@ -6,37 +6,19 @@ de:
   - title: Blog
     url: /blog
     side: right
-
-
-  - title: Mitmachen
-    url: mitmachen
+    
+ - title: Termine
+   url: termine
+   side: right
+     
+  - title: Unsere Ziele
+    url: /info/ziele
     side: right
-    dropdown:
-    - title: Aktiv an der Basis
-      url: /mitmachen/aktiv
-    - title: Termine
-      url: /mitmachen/termine
-
-  - title: Das Gesetz
+    
+  - title: Der Hintergrund
+    url: /info/hintergrund
+    side: right
+    
+  - title: Der Gesetzesentwurf
     url: gesetz
     side: right
-    dropdown:
-    - title: Der Entwurf
-      url: /gesetz/entwurf
-    - title: Die Begündung
-      url: /gesetz/begruendung
-
-  - title: Der Volksentscheid
-    url: info
-    side: right
-    dropdown:
-    - title: Der Hintergrund
-      url: /info/hintergrund
-    - title: Unsere Ziele
-      url: /info/ziele
-    - title: Die Schritte
-      url: /info/schritte
-
-
-
-
