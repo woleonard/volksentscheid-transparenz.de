@@ -511,6 +511,7 @@ $keep: 44 + 2 * 15px;
 .main-nav-wrapper {
 	.nav-pills>li {
 		border: 2px solid transparent;
+		padding-top: 25px;
 		a {
 			padding: 0 5px;
 			color: $black;

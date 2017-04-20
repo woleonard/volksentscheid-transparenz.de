@@ -27,55 +27,38 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="nav nav-pills">
       <li class="text-center nav-meta-lang toggle-topbar menu-icon ">
-    
         {% assign topdir = page.url | replace_first:'/',''| split:"/" | first %}
         {% assign urllength = page.url | size %}
       </li>
- 
-
-
-      {% assign navigation = site.data.navigation.de %}
-
+      <li>
+                    <a href="http://www.okfn.de/">
+                      <img class="okfn-logo img-responsive" width="100" src="/static/img/OKFN.png" alt="OKFN Logo" />
+                    </a>
+                  </li>
+        {% assign navigation = site.data.navigation.de %}
         {% for link in navigation %}
         {% assign current = nil %}
         {% if page.url contains link.url %}
         {% assign current = 'current' %}
         {% endif %}
 
-          {% comment %}   If there are links for right side begin   {% endcomment %}
-          {% if link.side == 'right' %}
-            {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
-            {% if link.dropdown == nil %}
-              <li class="divider"></li>
-              <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+        {% comment %}   If there are links for right side begin   {% endcomment %}
+        {% if link.side == 'right' %}
 
-            {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
-            {% else %}
+        {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
+        {% if link.dropdown == nil %}
+      <li class="divider"></li>
+      <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
 
-              <li class="divider"></li>
-              <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
-
-                  <ul class="dropdown">
-                    {% for dropdown_link in link.dropdown %}
-
-                      {% if dropdown_link.url contains 'http' %}
-                        {% assign domain = '' %}
-                        {% else %}
-                        {% assign domain = site.url %}
-                      {% endif %}
-
-                      <li><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
-                    {% endfor %}
-                  </ul>
-
-              </li>
+      
             {% endif %}
           {% endif %}
         {% endfor %}
+            
         {% comment %}   First loop finished 1   {% endcomment %}
-      </ul>
 
+      </ul>
     </section>
+     
   </nav>
 </div><!-- /#navigation -->
