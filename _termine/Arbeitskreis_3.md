@@ -1,8 +1,8 @@
 ---
 lab: 
-name: Werkstatt Volksentscheid Transparenz
+name: Fachgespräch Transparenz
 date: 2017-06-02
-time: 19:00-21:00 Uhr
-location: Erweiterungsbau der Technischen Universität Berlin, 10623 Berlin
-link-url: https://www.meetup.com/OK-Lab-Stuttgart-Meet-Up/events/nkpphlywfbsb/
+time: 10:00-12:00 Uhr
+location: Wikimedia Deutschland
+link-url: 
 ---
