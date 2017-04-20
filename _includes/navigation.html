@@ -30,11 +30,6 @@
         {% assign topdir = page.url | replace_first:'/',''| split:"/" | first %}
         {% assign urllength = page.url | size %}
       </li>
-      <li>
-                    <a href="http://www.okfn.de/">
-                      <img class="okfn-logo img-responsive" width="100" src="/static/img/OKFN.png" alt="OKFN Logo" />
-                    </a>
-                  </li>
         {% assign navigation = site.data.navigation.de %}
         {% for link in navigation %}
         {% assign current = nil %}
