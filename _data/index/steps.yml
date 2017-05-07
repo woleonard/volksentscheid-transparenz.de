@@ -3,7 +3,7 @@
 - name:
     detail: 15.000 Unterschriften für ein Transparenzgesetz
   desc:
-    detail: Fast 15.000 Menschen unterschreiben in einer Petition für ein Berliner Transparenzgesetz. Sie wenden sich gegen die Verschwendung von Steuergeldern beim Flughafenbau und machen sich dafür stark, dass Verträge der Daseinsvorsorge veröffentlicht werden müssen.
+    detail: Fast 15.000 Menschen unterschreiben <a href="https://www.change.org/p/milliardenverschwendung-am-flughafen-stoppen-transparenzgesetz-f%C3%BCr-berlin">eine Petition für ein Berliner Transparenzgesetz</a>. Sie wenden sich gegen die Verschwendung von Steuergeldern beim Flughafenbau und machen sich dafür stark, dass Verträge der Daseinsvorsorge veröffentlicht werden müssen.
   date:
     detail: Februar 2017 - Mai 2017
   pict: petition
@@ -11,7 +11,7 @@
 - name:
     detail: Entwurf für ein Berliner Transparenzgesetz
   desc:
-    detail: Die Open Knowledge Foundation Deutschland stellt einen ersten Entwurf für ein Berliner Transparenzgesetz vor. Es kann online unter [berlin.transparenzgesetz.de](https://berlin.transparenzgesetz.de/) kommentiert und diskutiert werden. Die Ergebnisse fließen in einen zweiten Entwurf ein, der dem Berliner Senat übergeben wird. 
+    detail: Die Open Knowledge Foundation Deutschland stellt einen ersten Entwurf für ein Berliner Transparenzgesetz vor. Es kann online unter <a href="https://berlin.transparenzgesetz.de/">berlin.transparenzgesetz.de</a> kommentiert und diskutiert werden. Die Ergebnisse fließen in einen zweiten Entwurf ein, der dem Berliner Senat übergeben wird. 
   date:
     detail: Mai 2017
   icon: fa-plus-square
