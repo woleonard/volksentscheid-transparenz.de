@@ -428,12 +428,12 @@ label {
 .navbar {
 	background-image: none;
 	border-radius: 0;
-	box-shadow: none;
+	box-shadow:  1px 0px 2px 1px #e7e7e7;
 	margin-bottom: 0;
 	padding: 30px;
-	//-webkit-box-shadow: 1px 0px 2px 1px rgba(212,212,212,1);
-	//-moz-box-shadow: 1px 0px 5px 1px rgba(212,212,212,1);
-	//box-shadow: 1px 0px 5px 1px rgba(212,212,212,1);
+	-webkit-box-shadow: 1px 0px 2px 1px #e7e7e7;
+	-moz-box-shadow: 1px 0px 2px 1px #e7e7e7;
+	box-shadow: 1px 0px 2px 1px #e7e7e7;
 
 }
 
