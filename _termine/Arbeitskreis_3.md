@@ -1,7 +1,7 @@
 ---
 lab: 
-name: Fachgespräch Transparenz
-date: 2017-06-16
-time: 10:00-12:00 Uhr
-location: Wikimedia Deutschland
+name: Unterstützungstreffen (kommt auf uns zu!)
+date: 2018-01-01
+time: 10:00 Uhr
+location: Open Knowledge Foundation
 ---
