@@ -25,9 +25,25 @@
   icon: fa-plus-square
 
 - name:
-    detail: Volksentscheid für ein Transparenzgesetz?
+    detail: Sammeln von Unterschriften von UnterstützerInnen
   desc:
     detail: Um einen Antrag auf ein Volksbegehren stellen zu können, müssen der Senatsverwaltung mindestens 20.000 gültige Unterschriften wahlberechtigter Berlinerinnen vorgelegt werden, die innerhalb eines Zeitraums von sechs Monaten gesammelt worden sein müssen. Dies ist vor allem dann sinnvoll, wenn der Senat sich nicht selbst dazu bereiterklärt, ein weitreichendes Gesetz zu verabschieden.
   date:
-    detail: Juli 2017 - Januar 2018
+    detail: ab Ende 2019
+  icon: fa-plus-square
+
+- name:
+    detail: Volksbegehren für ein Transparenzgesetz
+  desc:
+    detail: Innerhalb von vier Monaten müssen mehr als 170.000 Berlinerinnen ihre Unterschrift für das Volksbegehren abgeben.
+  date:
+    detail: ab Frühjahr 2021
+  icon: fa-plus-square
+  
+- name:
+    detail: Volksentscheid
+  desc:
+    detail: Parallel zur Abgeordnetenhauswahl im Herbst 2021 wird der Volksentscheid Transparenz stattfinden. 
+  date:
+    detail: Abgeordnetenhauswahl 2021
   icon: fa-plus-square
