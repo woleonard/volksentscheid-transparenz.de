@@ -204,8 +204,10 @@ h1, .h1,.jumbotron h1,  h2, .h2, h3, .h3 {
 h4, .h4 {
 	font-family: 'Fira Sans', sans-serif;
 	text-transform: uppercase;
-	margin: 28px 0;
+	margin: 50px 0 0px 0;
 	line-height: 28px;
+	font-size: 24px;
+	color: #112233;
 }
 
 a, a:hover, a:visited, a:active {
@@ -2490,4 +2492,9 @@ font-family: FontAwesome;
 				width: 100% !important;
 			}
 		}
+	}
+
+
+	.logo-section{
+		margin-bottom: 2rem 0;
 	}
