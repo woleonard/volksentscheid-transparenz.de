@@ -2,7 +2,7 @@ de:
   - title: Spenden
     url: /spenden
     side: right
-    
+
   - title: Gesetz
     url: /gesetz
     side: right
@@ -10,7 +10,7 @@ de:
   - title: Mitmachen
     url: /mitmachen
     side: right
-     
-  - title: Ziele
-    url: /ziele
+
+  - title: Gründe
+    url: /gruende
     side: right
