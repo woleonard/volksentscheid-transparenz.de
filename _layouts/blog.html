@@ -1,39 +1,34 @@
 ---
 layout: base
-
 ---
 
 <!-- Blog -->
 <div id="main">
+  <!-- One -->
+  {% include tiles.html %}
 
-        <!-- One -->
-        {% include tiles.html %}
-
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>Massa libero</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Get Started</a></li>
-                </ul>
-            </div>
-        </section>
-
+  <!-- Two -->
+  <section id="two">
+    <div class="inner">
+      <header class="major">
+        <h2>Massa libero</h2>
+      </header>
+      <p>{{ content }}</p>
+      <ul class="actions">
+        <li><a href="landing.html" class="button next">Get Started</a></li>
+      </ul>
     </div>
+  </section>
+</div>
 
 <script type="text/javascript">
-$(document).ready(function() {
+  $(document).ready(function() {
+    $(".blog-page-nav").css("display", "none");
 
-  $('.blog-page-nav').css('display','none');
-
-  $('.blog-main').infinitescroll({
-    navSelector  : ".blog-page-nav",
-    nextSelector : ".blog-page-nav .older",
-    itemSelector : ".blog-main .blog-post-teaser",
+    $(".blog-main").infinitescroll({
+      navSelector: ".blog-page-nav",
+      nextSelector: ".blog-page-nav .older",
+      itemSelector: ".blog-main .blog-post-teaser"
+    });
   });
-
-});
 </script>
