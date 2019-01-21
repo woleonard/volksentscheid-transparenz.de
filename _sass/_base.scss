@@ -1541,3 +1541,39 @@ ul {
 .logo-section {
   margin-bottom: 2rem 0;
 }
+
+.mobile-menu-toggle {
+  display: none;
+}
+
+.nav-meta {
+  text-align: right;
+}
+
+.nav-wrap {
+  top: 5px;
+  right: 60px;
+  z-index: 1001;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+.main-nav-wrapper {
+  .nav-pills > li {
+    a {
+      font-weight: 600;
+    }
+  }
+
+  .nav-pills .current {
+    display: block;
+  }
+}
+
+.nav-pills > li {
+  float: right;
+}
+#animation-wrapper {
+  background: transparent;
+}

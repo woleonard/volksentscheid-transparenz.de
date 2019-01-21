@@ -36,3 +36,13 @@
   color: white;
   width: 100%;
 }
+
+// the nav bar situation is quite complex so here work around
+@media screen and (max-width: 600px) {
+  .nav-wrap {
+    width: 90px;
+  }
+  .nav-wrap li {
+    padding-top: 0 !important;
+  }
+}
