@@ -46,3 +46,14 @@
     padding-top: 0 !important;
   }
 }
+
+.overlay-text-image {
+  position: relative;
+}
+
+// nadine here!
+.overlay-text-image h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
