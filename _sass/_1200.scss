@@ -9,7 +9,7 @@
 
 
 .nav-wrap {
-  top: 40px;
+  top: 5px;
   right: 60px;
   z-index: 1001;
   width: auto;
@@ -17,24 +17,10 @@
   padding: 0;
 }
 
-.page-wrap {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  transition: -webkit-transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-}
-
-.mobile-menu-open .page-wrap {
-  -webkit-transform: translateX(calc(-100% + #{$keep}));
-          transform: translateX(calc(-100% + #{$keep}));
-}
-
-
 .main-nav-wrapper {
-
 	.nav-pills>li {
 		a {
+			font-weight: 600;
 		}
 	}
 
@@ -96,7 +82,7 @@
 		}
 
 	h3 {
-		font-family: $leaguespartan;
+		font-family: Helvetica, Arial, sans-serif;
 		width: 55%;
 		margin: 0;
 		font-size: 20px;

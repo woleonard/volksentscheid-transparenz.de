@@ -2,23 +2,15 @@ de:
   - title: Spenden
     url: /spenden
     side: right
-
-  - title: Blog
-    url: http://blog.fragdenstaat.de
-    side: right
     
+  - title: Gesetz
+    url: /gesetz
+    side: right
+
   - title: Mitmachen
     url: /mitmachen
     side: right
      
-  - title: Unsere Ziele
+  - title: Ziele
     url: /ziele
-    side: right
-    
-  - title: Der Hintergrund
-    url: /hintergrund
-    side: right
-    
-  - title: Der Gesetzentwurf
-    url: /gesetz
     side: right

@@ -24,12 +24,6 @@
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-.mobile-menu-open .page-wrap {
-  -webkit-transform: translateX(calc(-100% + #{$keep}));
-          transform: translateX(calc(-100% + #{$keep}));
-}
-
-
 .main-nav-wrapper {
 
   .nav-pills>li {
@@ -142,7 +136,7 @@
     }
 
   h3 {
-    font-family: $leaguespartan;
+    font-family: Helvetica, Arial, sans-serif;
     width: 60%;
     margin: 1em 0em 0em 1.5em;
     font-size: 14px;

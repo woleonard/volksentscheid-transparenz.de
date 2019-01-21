@@ -5,58 +5,53 @@ metalinks: yes
 ---
 
 
-
-
-
 <!-- About -->
-<div class="jumbotron fond__white animated">
-    <div class="container text-center text__black">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1"> 
-                <p class="introtext">
-                    Ein Transparenzgesetz für Berlin!
-                </p>
-                <p>
-                    Im Berliner Koalitionsvertrag haben die Regierungsparteien vereinbart, das Berliner Informationsfreiheitsgesetz zu einem Transparenzgesetz weiterzuentwickeln. Ein konkreter Entwurf wird bislang jedoch nicht erarbeitet.
-                    Das möchten wir ändern: Die Open Knowledge Foundation Deutschland hat gemeinsam mit zivilgesellschaftlichen Partnern einen Entwurf für ein Berliner Transparenzgesetz geschrieben.
-                </p>      
-              
-            </div>
-        </div>
-    </div> 
+<div class="jumbotron fond__yellow ">
+  <div class="container-fluid text__black">
+    <div class="row">
+      <div class="col-lg-3">
+        <img class="img-responsive" src="/static/img/start-illu.svg" alt="Volksentscheid Transparenz">
+      </div>
+      <div class="col-lg-6 col-lg-offset-1"> 
+        <h1>Ein Transparenzgesetz für Berlin!</h1>
+        <p> 
+          Unser Transparenzgesetz verpflichtet Behörden bisher geheime Verträge, Protokolle des Senats, interne Gutachten und vieles mehr zu veröffentlichen. Die Verwaltung muss diese Informationen kostenlos online bereitstellen. Dadurch können Bürgerinnen, Journalisten und Initiativen, frühzeitig Einblick in das Handeln von Politik & Verwaltung erhalten und aktiv werden. 
+        </p>
+      </div>     
+    </div>
+  </div>
 </div>   
 
 
-
 <div class="jumbotron fond__grey-bright">
-   <div class="container">
-       <div class="row">
-           <div class="col-lg-12 text-center">
-               <h1>Was passiert</h1>
-           </div>
-       </div>
-       <div class="row features-block">
-           <div class="col-lg-12">
-               <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-               {% for steps in site.data.index.steps %}
-               {% assign loopindex = forloop.index | modulo: 2 %}
-                   <div class="vertical-timeline-block">
-                       <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                           <i class="fa {{ steps.icon }}"></i>
-                       </div>
-                       <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
-                           <h2><span data-i18n="steps.{{ steps.name.i18n }}">{{ steps.name.detail }}</span></h2>
-                           <p><span data-i18n="steps.{{ steps.desc.i18n }}">{{ steps.desc.detail }} </span></p>
-                           <span class="vertical-date"><span data-i18n="steps.{{ steps.date.i18n }}"> {{ steps.date.detail }} </span>
-                           <br/> <small><span data-i18n="steps.{{ steps.job.i18n }}">{{ steps.job.detail }}</span></small> </span>
-                       </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Was passiert</h1>
+      </div>
+    </div>
+    <div class="row features-block">
+      <div class="col-lg-12">
+        <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+        {% for steps in site.data.index.steps %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+               <div class="vertical-timeline-block">
+                   <div class="vertical-timeline-icon navy-bg wow rotateIn">
+                       <i class="fa {{ steps.icon }}"></i>
                    </div>
-            
-               {% endfor %}
-    
+                   <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
+                       <h2><span data-i18n="steps.{{ steps.name.i18n }}">{{ steps.name.detail }}</span></h2>
+                       <p><span data-i18n="steps.{{ steps.desc.i18n }}">{{ steps.desc.detail }} </span></p>
+                       <span class="vertical-date"><span data-i18n="steps.{{ steps.date.i18n }}"> {{ steps.date.detail }} </span>
+                       <br/> <small><span data-i18n="steps.{{ steps.job.i18n }}">{{ steps.job.detail }}</span></small> </span>
+                   </div>
                </div>
+        
+           {% endfor %}
+
            </div>
        </div>
+   </div>
    </div>
 </div>   
 

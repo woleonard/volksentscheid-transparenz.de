@@ -44,76 +44,15 @@
   <script src="/static/js/jquery-1.11.2.min.js"></script>
   <script src="/static/js/bootstrap.min.js"></script>
   <script src="/static/js/formChanger.js"></script>
-
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Overpass');
-  </style>
-
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700" rel="stylesheet">
 </head>
 
-  <body>
-    <!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
+<body>
+  <!--[if lt IE 7]>
+  <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
 
-    <div class="body-wrap">
-      <div class="page-wrap">
-        <div class="nav-wrap"> <!--
- <div class="main-nav-wrapper">
-   <ul class="nav nav-pills title-area" >
-        <li class="text-center nav-meta-lang">
-      
-          
-          
-        </li>
 
-   
-        
-
-        
-        
-        
-        <li class="toggle-topbar menu-icon  element first  ">
-          <a href="/spenden">Spenden</a>
-        </li>
-        
-        
-        
-        <li class="toggle-topbar menu-icon  element   ">
-          <a href="http://blog.fragdenstaat.de">Blog</a>
-        </li>
-        
-        
-        
-        <li class="toggle-topbar menu-icon  element   ">
-          <a href="/mitmachen">Mitmachen</a>
-        </li>
-        
-        
-        
-        <li class="toggle-topbar menu-icon  element   ">
-          <a href="/ziele">Unsere Ziele</a>
-        </li>
-        
-        
-        
-        <li class="toggle-topbar menu-icon  element   ">
-          <a href="/hintergrund">Der Hintergrund</a>
-        </li>
-        
-        
-        
-        <li class="toggle-topbar menu-icon  element  current last">
-          <a href="/gesetz">Der Gesetzentwurf</a>
-        </li>
-        
-      </ul>
-    </div>
--->
-
+  <div class="nav-wrap">
 <div class="main-nav-wrapper">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="nav nav-pills">
@@ -147,7 +86,7 @@
         
         
       <li class="divider"></li>
-      <li><a  href="http://blog.fragdenstaat.de" target="_blank">Blog</a></li>
+      <li><a  href="/gesetz">Gesetz</a></li>
 
       
             
@@ -177,37 +116,7 @@
         
         
       <li class="divider"></li>
-      <li><a  href="/ziele">Unsere Ziele</a></li>
-
-      
-            
-          
-        
-        
-        
-
-        
-        
-
-        
-        
-      <li class="divider"></li>
-      <li><a  href="/hintergrund">Der Hintergrund</a></li>
-
-      
-            
-          
-        
-        
-        
-
-        
-        
-
-        
-        
-      <li class="divider"></li>
-      <li><a  href="/gesetz">Der Gesetzentwurf</a></li>
+      <li><a  href="/ziele">Ziele</a></li>
 
       
             
@@ -222,18 +131,14 @@
   </nav>
 </div><!-- /#navigation -->
 </div>
-
-        <div class="navbar">
-
-          <div class="logo">
-            <a class="" href="/">
-              <img class="img-responsive" src="/static/img/logo.svg" width="250" alt="Volksentscheid Transparenz">
-            </a>
-          </div>
-
-        </div>
-
-        <head>
+  <div class="navbar">
+    <div class="logo">
+      <a class="" href="/">
+        <img class="img-responsive" src="/static/img/logo.svg" width="250" alt="Volksentscheid Transparenz">
+      </a>
+    </div>
+   </div>
+  <head>
 <script type="text/javascript">
       jQuery(document).ready(function($) {
         $(".scroll").click(function(event){
@@ -329,39 +234,32 @@
 
 
 
-  
-
-           <footer>
-          <div class="jumbotron fond__grey-mid meta-links-foot">
-            <div class="container">
-              <div class="row text-uppercase">
-                <div class="col-lg-12 col-lg-offset-1">
-                  <div class="col-lg-3">
-                      <a href="/ueber">&Uuml;ber uns</a>
-                  </div>
-                  <div class="col-lg-3">
-                      <a href="/presse">Presse</a>
-                  </div>
-                  <div class="col-lg-3">
-                      <a href="/impressum">Impressum</a>
-                  </div>
-                    <div>
-                    <a href="http://www.okfn.de/">
-                      <img class="okfn-logo img-responsive" width="100" src="/static/img/OKFN.png" alt="OKFN Logo" />
-                    </a>
-                  </div>
-                </div>
-              </div>
+  <footer>
+    <div class="jumbotron meta-links-foot">
+      <div class="container">
+        <div class="row text-uppercase">
+          <div class="col-lg-12 col-lg-offset-1">
+            <div class="col-lg-3">
+                <a href="/ueber">&Uuml;ber uns</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="/presse">Presse</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="/impressum">Impressum</a>
+            </div>
+            <div>
+              <a href="http://www.okfn.de/">
+                <img class="okfn-logo img-responsive" width="100" src="/static/img/OKFN.png" alt="OKFN Logo" />
+              </a>
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
-         <!--    
-        </div>-->
-
-      
-    </footer>
-  </div>
-</div>
+       <!--    
+      </div>-->
+  </footer>
 </body>
 </html>
