@@ -170,14 +170,17 @@ label {
 
   p {
     margin: 28px 0;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.5em;
     font-family: Helvetica, Arial, sans-serif;
   }
 }
 
+.bold{
+  font-weight: 600; 
+}
+
 .meta-links-foot {
-  text-transform: uppercase;
   a,
   a:hover,
   a:visited,
@@ -326,41 +329,6 @@ $keep: 44 + 2 * 15px;
   position: relative;
   a {
     text-decoration: none;
-  }
-}
-
-#animation-wrapper,
-.hero-overlay {
-  font-family: Helvetica, Arial, sans-serif;
-  padding: 5% 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.hero-overlay-ziele {
-  //background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 0;
-  text-align: left;
-  width: 100%;
-  height: 100%;
-
-  font-family: "Fira Sans", sans-serif;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-
-  h1 {
-    font-size: 50px;
-    font-family: "Fira Sans";
-    letter-spacing: 2px;
-    margin-top: -10%;
-    color: $black;
   }
 }
 
@@ -1010,7 +978,7 @@ $keep: 44 + 2 * 15px;
 }
 
 #vertical-timeline.light-timeline:before {
-  background: #e7eaec;
+  background: black;
 }
 
 .dark-timeline .vertical-timeline-content:before {
@@ -1091,7 +1059,7 @@ $keep: 44 + 2 * 15px;
   height: 40px;
   border-radius: 50%;
   font-size: 16px;
-  border: 3px solid #f1f1f1;
+  border: 3px solid black;
 }
 
 .vertical-timeline-icon i {
@@ -1128,6 +1096,7 @@ $keep: 44 + 2 * 15px;
   position: relative;
   margin-left: 60px;
   background: #fff;
+  color: black;
   border-radius: 0.25em;
   padding: 1em;
 }
@@ -1139,21 +1108,24 @@ $keep: 44 + 2 * 15px;
 }
 
 .vertical-timeline-content h2 {
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0px;
   margin-top: 4px;
+  color: black;
 }
 
 .vertical-timeline-content p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 25px;
+  font-weight: 600;
+  color: black;
   margin: 1em 0;
   line-height: 1.6;
 }
 
 .vertical-timeline-content .vertical-date {
   float: left;
-  font-weight: 500;
+  font-weight: 600;
   max-width: 250px;
   color: black;
   line-height: 22px;
@@ -1161,7 +1133,7 @@ $keep: 44 + 2 * 15px;
 
 .vertical-date small {
   color: black;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .vertical-timeline-content::before {
@@ -1183,7 +1155,7 @@ $keep: 44 + 2 * 15px;
     font-size: 15px;
     line-height: 25px;
     font-family: Helvetica, Arial, sans-serif;
-    color: #5b5b5b;
+    color: black;
   }
 }
 
@@ -1216,6 +1188,7 @@ $keep: 44 + 2 * 15px;
     left: 122%;
     top: 2px;
     font-size: 18px;
+    padding-top: 20px;
   }
   .center-orientation
     .vertical-timeline-block:nth-child(even)
@@ -1576,4 +1549,9 @@ ul {
 }
 #animation-wrapper {
   background: transparent;
+}
+
+
+.section-reason{
+  margin-top: 3em;
 }
