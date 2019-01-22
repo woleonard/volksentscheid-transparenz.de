@@ -1,4 +1,6 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
+set -e
+set -x
 
 # Make sure Bundler is installed
 if [ "$(gem query -i -n bundler)" = "false" ]; then

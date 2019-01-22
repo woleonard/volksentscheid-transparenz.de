@@ -3,62 +3,79 @@ layout: base
 title: "Die Schritte des Volksentscheids"
 ---
 
-
-<div class="hero">
-</div>
-
-
-
+<div class="hero"></div>
 
 <!-- About -->
 <div class="beneath-sections jumbotron fond__white">
   <div class="container text__black">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-  <!--      <p class="introtext text-center">
+        <!--      <p class="introtext text-center">
           Das erste zweitägige Fest der Open Knowledge Foundation Deutschland für alle, die Entwicklungen im Bereich Open Data, Transparenz, Data Literacy und Civic Tech in Deutschland gestalten.
         </p><br>-->
         <h3 class="text-center">Wie läuft eigentlich ein Volksentscheid ab?</h3>
         <p class="text-center">
-          In Berlin gibt es ein dreistufiges Verfahren: es besteht aus dem Antrag auf die Durchführung eines Volksbegehrens, dem Volksbegehren und dem Volksentscheid. 
+          In Berlin gibt es ein dreistufiges Verfahren: es besteht aus dem
+          Antrag auf die Durchführung eines Volksbegehrens, dem Volksbegehren
+          und dem Volksentscheid.
         </p>
-     </div>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="jumbotron fond__grey-bright">
-   <div class="container">
-       <div class="row">
-           <div class="col-lg-12 text-center">
-               <h1>Die Schritte im Detail</h1>
-           </div>
-       </div>
-       <div class="row features-block">
-           <div class="col-lg-12">
-               <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-               {% for career in site.data.index.careers %}
-               {% assign loopindex = forloop.index | modulo: 2 %}
-                   <div class="vertical-timeline-block">
-                       <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                           {{ career.pict }}"
-                       </div>
-                       <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
-                           <h2><span data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></h2>
-                           <p><span data-i18n="career.{{ career.desc.i18n }}">{{ career.desc.detail }} </span></p>
-                           <span class="vertical-date"><span data-i18n="career.{{ career.date.i18n }}"> {{ career.date.detail }} </span>
-                           <br/> <small><span data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</span></small> </span>
-                       </div>
-                   </div>
-            
-               {% endfor %}
-    
-               </div>
-           </div>
-       </div>
-   </div>
-</div>   
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Die Schritte im Detail</h1>
+      </div>
+    </div>
+    <div class="row features-block">
+      <div class="col-lg-12">
+        <div
+          id="vertical-timeline"
+          class="vertical-container light-timeline center-orientation"
+        >
+          {% for career in site.data.index.careers %} {% assign loopindex =
+          forloop.index | modulo: 2 %}
+          <div class="vertical-timeline-block">
+            <div class="vertical-timeline-icon navy-bg wow rotateIn">
+              {{ career.pict }}"
+            </div>
+            <div
+              class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}"
+            >
+              <h2>
+                <span data-i18n="career.{{ career.name.i18n }}"
+                  >{{ career.name.detail }}</span
+                >
+              </h2>
+              <p>
+                <span data-i18n="career.{{ career.desc.i18n }}"
+                  >{{ career.desc.detail }}
+                </span>
+              </p>
+              <span class="vertical-date"
+                ><span data-i18n="career.{{ career.date.i18n }}">
+                  {{ career.date.detail }}
+                </span>
+                <br />
+                <small
+                  ><span data-i18n="career.{{ career.job.i18n }}"
+                    >{{ career.job.detail }}</span
+                  ></small
+                >
+              </span>
+            </div>
+          </div>
+
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Newsletter -->
 {% include newsletter-form.html %}
-
